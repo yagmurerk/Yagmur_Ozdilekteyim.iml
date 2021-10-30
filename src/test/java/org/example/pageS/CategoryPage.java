@@ -11,5 +11,6 @@ public class CategoryPage extends StepImplementation {
         String textCheck = findElement(By.xpath("//android.widget.LinearLayout[@content-desc='Kategoriler']")).getAttribute("content-desc");
         Assertions.assertEquals("Kategoriler",textCheck,"Kategori sayfası hatalı");
 
+
     }
 }
